@@ -1,0 +1,31 @@
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #c27231;
+    color: white;
+}
+
+ul li{
+    padding: 20px;
+    outline: rgb(250, 171, 53) solid 2px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.specialDiv{
+    text-align: center;
+    background-color: #f5c275;
+    height: auto;
+    width: 100vw;
+}
