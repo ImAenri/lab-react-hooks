@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import {useState} from 'react';
 import TaskManager from './TaskManager';
+import React from 'react';
+import { TaskProvider } from './TaskContext';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <TaskManager/>
+      <React.StrictMode>
+        <TaskProvider>
+          <TaskManager/>
+        </TaskProvider>
+      </React.StrictMode>
+      
     </div>
   );
 }
